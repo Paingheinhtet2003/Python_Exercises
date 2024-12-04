@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-ZodiacRange = namedtuple("ZodiacRange" ["sign", "start_month", "start_day", "end_month", "end_day"])
+ZodiacRange = namedtuple("ZodiacRange", ["sign", "start_month", "start_day", "end_month", "end_day"])
 
 zodiac_ranges = [
     ZodiacRange("魔羯座", 12, 22, 1, 19),
