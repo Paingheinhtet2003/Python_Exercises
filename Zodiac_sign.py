@@ -26,7 +26,7 @@ def get_zodiac_sign(day, month):
 birth_date = input("Enter your birthday in DD/MM format: ").strip()
 
 try:
-    day, month = map(int, birth_date.split())
+    day, month = map(int, birth_date.split('/'))
 
     zodiac_sign = get_zodiac_sign(day, month)
     print(f"Your Zodiac Sign is: {zodiac_sign}")
